@@ -1,0 +1,360 @@
+body {
+    font-family: "HKGrotesk";
+    background-color: #ffffff;
+}
+.hex-red-text {
+    color: #ca171e;
+}
+.navbar {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar img{
+    width: 100px;
+}
+.carousel-item-header {
+    background-image: url("../images/v502_724.png");
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.carousel-inner .carousel-item-header .display-text {
+    margin-top: 9rem !important;
+    margin-left: 10rem !important;
+}
+
+.carousel-inner .carousel-item-header .display-text h1 {
+    font-family: "OpenSans-ExtraBoldItalic";
+    font-size: 104px;
+    font-weight: 500;
+    font-style: italic;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.carousel-inner .carousel-item-header .display-text button {
+    width: 20rem;
+    height: 3rem;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-family: "HKGrotesk";
+    font-style: normal;
+    font-size: 20px;
+}
+
+.carousel .header-carousel {
+    justify-content: left;
+    margin-left: 10rem;
+}
+
+.carousel .header-carousel .indicator {
+    margin-right: 0.05em;
+    border: none;
+    width: 1.5rem;
+    height: 0.3rem;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.carousel .header-carousel .active {
+    background-color: #ca171e !important;
+}
+
+.content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content .regrads {
+    margin-top: 3rem;
+}
+
+.content .regrads img {
+    width: 266px;
+}
+
+.product {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product .button-view button {
+    float: right;
+}
+
+.product .card .card-body img {
+    opacity: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+.product .card .card-body p {
+    opacity: 50%;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.wmud {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.wmud h1 {
+    font-family: "OpenSans-ExtraBoldItalic";
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.wmud #wmud-carosel .carousel-inner .carousel-item img {
+    max-height: 389px;
+    min-height: 112px;
+    width: 90%;
+}
+
+.wmud #wmud-carosel .carousel-inner .carousel-item p {
+    margin-top: 10rem;
+    margin-right: 10rem;
+}
+
+.wmud #wmud-carosel .carousel-indicators .indicator {
+    margin-right: 0.05em;
+    border: none;
+    width: 1.5rem;
+    height: 0.3rem;
+    border-radius: 12px;
+    background-color: grey !important;
+}
+
+.wmud #wmud-carosel .carousel-indicators .active {
+    background-color: #ca171e !important;
+}
+
+.wmud #wmud-carosel .carousel-control-prev-icon {
+    background-image: url("../images/left-arrow-6424.png");
+    width: 3rem;
+    height: 3rem;
+}
+
+.wmud #wmud-carosel .carousel-control-next-icon {
+    background-image: url("../images/right-arrow-6425.png");
+    width: 3rem;
+    height: 3rem;
+}
+
+.wmud #wmud-carosel .carousel-control {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.service {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.service .button-view button {
+    float: right;
+}
+
+.service .row .card img {
+    opacity: 70%;
+}
+
+.service .card .card-img-overlay p {
+    color: #ffffff;
+    text-transform: uppercase;
+    height: 12rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.works {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.works h1 {
+    font-family: "OpenSans-ExtraBoldItalic";
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.works #work-carousel img {
+    height: 18rem;
+    width: 22rem;
+}
+
+.works #work-carousel .work-indicator {
+    bottom: -2rem;
+}
+.works #work-carousel .carousel-indicators .indicator {
+    margin-right: 0.05em;
+    border: none;
+    width: 1.5rem;
+    height: 0.3rem;
+    border-radius: 12px;
+    background-color: grey !important;
+}
+
+.works #work-carousel .carousel-indicators .active {
+    background-color: #ca171e !important;
+}
+
+.works #work-carousel .carousel-control-prev-icon {
+    background-image: url("../images/left-arrow-6424.png");
+    width: 3rem;
+    height: 3rem;
+    margin-left: -15rem;
+}
+
+.works #work-carousel .carousel-control-next-icon {
+    background-image: url("../images/right-arrow-6425.png");
+    width: 3rem;
+    height: 3rem;
+    margin-right: -15rem;
+}
+
+.client {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.client .button-view button {
+    float: right;
+}
+
+.client #client-carousel .client-indicator {
+    bottom: -2rem;
+}
+
+.client #client-carousel .carousel-indicators .indicator {
+    margin-right: 0.05em;
+    border: none;
+    width: 1.5rem;
+    height: 0.3rem;
+    border-radius: 12px;
+    background-color: grey !important;
+}
+
+.client #client-carousel .carousel-indicators .active {
+    background-color: #ca171e !important;
+}
+
+.client #client-carousel .carousel-control-prev-icon {
+    background-image: url("../images/left-arrow-6424.png");
+    width: 3rem;
+    height: 3rem;
+    margin-left: -15rem;
+}
+
+.client #client-carousel .carousel-control-next-icon {
+    background-image: url("../images/right-arrow-6425.png");
+    width: 3rem;
+    height: 3rem;
+    margin-right: -15rem;
+}
+
+.creative-project {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.creative-project .text-creative {
+    font-family: "OpenSans-Bold";
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.creative-project .creative-animate {
+    font-family: "OpenSans-ExtraBold";
+    position: relative;
+    font-weight: bold;
+}
+
+.creative-project .creative-animate::before {
+    content: "";
+    width: -webkit-fill-available;
+    height: 40%;
+    background-color: #f1c40f;
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
+}
+
+.creative-project button {
+    width: 20rem;
+}
+
+.footer {
+    background-color: #101010;
+    padding-bottom: 2rem;
+}
+
+.footer .col-4 {
+    margin-top: 3rem;
+}
+
+.footer img {
+    width: 5rem;
+}
+
+.footer .company_name {
+    padding-left: 4%;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+}
+
+.footer .company_address {
+    padding-left: 4%;
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+}
+
+.footer .footer-menu {
+    margin-top: 5rem;
+}
+
+.footer .footer-menu .row {
+    margin-left: 5rem;
+}
+
+.footer .footer-menu .col-6 {
+    margin-bottom: 2rem;
+}
+.footer .footer-menu a {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.footer .footer-ig .ig-ic {
+    float: right;
+}
+
+.footer .footer-ig .ig-ic img {
+    float: right;
+    margin-bottom: 1rem;
+}
+
+.footer .footer-ig p {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
